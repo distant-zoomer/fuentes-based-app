@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+
+.button {
+  background-color: #f44336; /* Red */
+  border: none;
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
+  /* font-size: 16px; */
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:focus { outline: none; }
+.button:active {
+  background-color: #c93328;
+  outline: none;
+}
