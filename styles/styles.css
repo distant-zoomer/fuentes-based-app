@@ -6,6 +6,10 @@ h1 {
   font-size: 50px;
 }
 
+#app-title {
+  font-style: italic;
+}
+
 .disable-dbl-tap-zoom {
   touch-action: manipulation;
 }
